@@ -1,0 +1,50 @@
+Lista de Programas
+
+IDE's e TextEditors
+- Pycharm
+- Clion
+- Haroopad
+- Sublime
+- Atom
+- Texmaker
+- TexStudio
+- DB Browser for SQLite
+- QT 5 Designer 
+- RStudio
+
+
+Gráficos
+- GIMP
+
+Internet
+- Chrome
+- qBittorrent
+
+
+Multimidia
+- SMPlayer
+- xine
+
+Temas e tweaks
+- GParted
+- Ferramentas de ajustes do Unity
+- Gerenciador de configuração do CompizConfig
+- Gerenciador de Pacotes Synaptic
+- 7zip
+
+Desenvolvedor
+- Compilador C da GNU (gcc)
+- GNU C++ compiler
+- OpenJDK Development Kit (JDK)
+- OpenJDK Java runtime, using Hotspot JIT(headless)
+- ROS
+- R
+- Nodejs
+- NPM
+- RVM
+- Bower
+- pip
+- virtualenv
+- ruby
+- git
+- mkdocs

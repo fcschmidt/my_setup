@@ -1,4 +1,4 @@
-.install.txt
-.install_ros.sh
-.dev.sh
-.julia.sh
+install.txt
+install_ros.sh
+dev.sh
+julia.sh

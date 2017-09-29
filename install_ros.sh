@@ -1,25 +1,27 @@
 #!/bin/bash
 # Install ROS for Ubuntu
 # more information on http://wiki.ros.org/
+# source: http://wiki.ros.org/kinetic/Installation/Ubuntu
+
 ROS_VERSION="indigo"
 
 # Ubuntu apt repository
-sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu trusty main" > /etc/apt/sources.list.d/ros-latest.list'
 
 # Add apt-keys
-wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
+sudo wget https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -O - | sudo apt-key add -
 
 # Update the ROS packages
-apt-get update
+sudo apt-get update
 
 # Install full ROS indigo version, for Ubuntu 14.04
 # check the setting for other versions and other distros 
-apt-get install ros-$ROS_VERSION-desktop-full
+sudo apt-get install ros-$ROS_VERSION-desktop-full
 
 # Compiler run code components in ROS
-rosdep init
+sudo rosdep init
 
-rosdep update
+sudo rosdep update
 
 # Add ROS variable to .bashrc
 echo "source /opt/ros/$ROS_VERSION/setup.bash" >> ~/.bashrc
@@ -28,7 +30,7 @@ echo "source /opt/ros/$ROS_VERSION/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
 # Download many source trees for the ROS package
-apt-get install python-rosinstall
+sudo apt-get install python-rosinstall
 
 # Update
-apt-get update
+sudo apt-get update

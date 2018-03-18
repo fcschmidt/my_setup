@@ -1,0 +1,104 @@
+Lista de Programas
+
+IDE's e TextEditors
+- Pycharm
+- Clion
+- Haroopad
+- Sublime
+- Atom
+- Texmaker
+- TexStudio
+- DB Browser for SQLite
+- QT 5 Designer 
+- RStudio
+- mkdocs
+- Visual Studio Code
+
+
+Gráficos
+- GIMP
+- NVIDIA X Server Settings
+
+Internet
+- Chrome
+- qBittorrent
+- jDownloader2
+- 4k Video Downloader
+
+
+Multimidia
+- SMPlayer
+- xine
+- wine
+- PlayOnlinux
+
+Temas e tweaks
+- GParted
+- Ferramentas de ajustes do Unity
+- Gerenciador de configuração do CompizConfig
+- Gerenciador de Pacotes Synaptic
+- 7zip
+
+Desenvolvedor
+- Compilador C da GNU (gcc)
+- GNU C++ compiler
+- OpenJDK Development Kit (JDK)
+- OpenJDK Java runtime, using Hotspot JIT(headless)
+- ROS
+- R
+- pip
+- virtualenv
+- ruby
+- git
+- server
+- RVM
+
+
+Front-end
+- Nodejs
+- NPM
+- Bower
+- Gulp
+- Grunt
+- Angular
+- less
+- sass
+- Web Server for Chrome
+
+
+VSCode Extensions
+- :emojisense: 0.2.3
+- Angular v4 TypeScript Snipper
+- Beautify (Beautity code in place for VS Code) 1.1.1
+- Code Runner 0.7.1
+- Emoji (Plugins to insert emoji ...)
+- Emoji COde
+- ESLint
+- flask-snippets
+- gitignore (gitignore extension for Visual Studio Code)
+- Happy Flasker
+- HTML CSS Support
+- HTML Snippets
+- HTMLHint
+- IntelliSense for CSS class names
+- Jupyter
+- LaTeX Workshop
+- MagicPython
+- Markdown Shortcuts
+- Markdown Theme Kit
+- Markdown TOC
+- Markdownlint
+- Material Icon Theme
+- Python
+- Python for VSCode
+- Terminal (Terminar for Visual Studio Code)
+
+
+# Install Ruby
+sudo apt-get install ruby-full
+gem install jekyll
+
+# Tools
+- Postman
+- Insomnia
+- htop

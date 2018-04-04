@@ -1,6 +1,8 @@
 #/bin/bash
 # Install Haskell
 
+set -e
+
 sudo apt-get update
 sudo apt-get install -y software-properties-common
 sudo add-apt-repository -y ppa:hvr/ghc

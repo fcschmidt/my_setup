@@ -8,9 +8,10 @@
 #apt-get install -y nodejs
 #
 # Alternatively, for Node.js 8
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-apt-get install -y nodejs
-#
+#curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+#apt-get install -y nodejs
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+sudo apt-get install -y nodejs
 # Install NPM
 npm install npm@latest -g
 #
@@ -53,3 +54,6 @@ npm install --global webpack
 #
 # Then install this utility as global npm-module
 npm i -g npm-upgrade
+#
+# Install React
+npm install -g create-react-app

@@ -9,3 +9,5 @@ apt-get update
 apt-get install esl-erlang
 # Install Elixir:
 apt-get install elixir
+# View Elixir Version
+elixir -v

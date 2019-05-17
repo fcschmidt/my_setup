@@ -45,9 +45,19 @@ end
 # Update Packages
 R --save << end
 update.packages(lib.loc = "/usr/local/lib/R/site-library")
+# Install packages for using R on Jupyter Notebook
+install.packages('devtools')
 end
-
-
+#
+# Install dependence
+apt-get install libssl-dev libcurl4-openssl-dev
+#
+# Install R packages to Jupyter
+R --save << end
+install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))
+devtools::install_github(paste0('IRkernel/', c('repr', 'IRdisplay', 'IRkernel')))
+IRkernel::installspec()
+end
 
 
 # Install for other Distribution and

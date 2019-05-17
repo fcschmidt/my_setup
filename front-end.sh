@@ -7,6 +7,8 @@
 #curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 #apt-get install -y nodejs
 #
+#  ADICIONAR O NVM
+#
 # Alternatively, for Node.js 8
 #curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 #apt-get install -y nodejs
@@ -39,6 +41,9 @@ npm install -g bower
 #
 # live-server install
 npm install -g live-server
+#
+# http-server
+npm install http-server -g
 #
 # Install  Gulp dependencies
 npm install --save-dev gulp-uglify gulp-cssmin gulp-strip-css-comments gulp-concat gulp-imagemin gulp-changed gulp-watch

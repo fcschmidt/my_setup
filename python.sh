@@ -10,5 +10,6 @@ pip3 install --upgrade pip
 pip3 install virtualenv
 #
 # Install Jupyter
-pip3 install jupyter
-pip3 install -U jupyter
+python3 -m pip install jupyter
+#pip3 install jupyter
+#pip3 install -U jupyter
